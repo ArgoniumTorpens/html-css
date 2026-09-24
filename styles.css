@@ -1,0 +1,218 @@
+* {
+    display: flex;
+    margin:0px;
+    padding:0px;
+    color: white;
+    box-sizing: border-box;
+}
+body {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-image: url(/project0.1/styles/grungy_loop.png); 
+}
+header {
+    width: 100vw;
+    height: 45vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/project0.1/styles/grungy_color.jpg);
+    background-size: cover;
+}
+
+
+ 
+.upper_logo {
+    width: 100vw;
+    height: 1rem;
+    background-color: black;
+}
+.upper_logo img{
+    margin-left: 0.5vw;
+}
+
+nav, nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -10vh;
+    width: 100rem;
+    height: 20rem;
+}
+
+nav ul {
+    width: 23vw;
+    height: 5vh;
+    margin-top: 0rem;
+    flex-direction: row;
+}
+.case {
+    background-color: black;
+    display: flex;
+}
+.upper{
+    width: 24.5vw;
+    height:5vh;
+    background-image: url(/project0.1/styles/rustpattern.webp);
+    border: 5px solid #2d1401;
+    clip-path: polygon(10% 70%, 90% 70%, 100% 100%, 0% 100%);
+}
+.lower{
+    width: 24.5vw;
+    height: 5vh;
+    background-image: url(/project0.1/styles/rustpattern.webp);
+    border: 5px solid #4e2301;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 30%, 10% 30%);
+}
+.middle {
+    background-image: url(/project0.1/styles/rustpattern2.webp);
+    border-radius: 3px;
+    width: 25vw;
+    height: 1vh;
+}
+.center {
+    background-image: url(/project0.1/styles/the-image-is-of-a-rusted-metal-surface-with-many-small-holes-free-photo.webp);
+}
+.nav-ul li {
+    display: flex;
+    padding-left:20px;
+    padding-right:20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 3px;
+    color:#ffffff;
+      text-shadow: 
+    -2px 0 black,   /* Left */
+     1px 0 black,   /* Right */
+     0 -1px black,  /* Top */
+     0 1px black;   /* Bottom */
+}
+
+
+main {
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70vw;
+    background-image: url(/project0.1/styles/Background_main.jpg);
+    background-size:auto;
+}
+
+.box-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-dual {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box-dual div  {
+    width: 450px;
+    height: 450px;
+}
+.box{
+    flex-direction: column;
+    align-items:left;
+    justify-content:end;
+    width: 45vw;
+    height: 20vh;
+    margin: 3rem;
+    border: 5px solid black;
+    border-radius: 4px;
+    background-color: black;
+}
+.left{
+    align-self: flex-start;
+}
+.right{
+    align-self: flex-end;
+}
+.img_box{
+    width: 120px;
+    height: 180px;
+    size: 40%;
+}
+    /*Background resolution: 1920x620*/
+.background_halflife {
+    background-image: url(/project0.1/styles/hl_coverw.jpg);
+    background-size: cover;
+}
+.background_opposingforce {
+    background-image: url(/project0.1/styles/hl_of_coverw.png);
+    background-size: cover;
+}
+.background_blueshift {
+    background-image: url(/project0.1/styles/hl_bs_coverw.png);
+    background-size: cover;
+}
+.logo {
+    align-self:baseline;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    width: 500px;
+    filter: drop-shadow(15px 15px 15px rgb(0, 0, 0));
+}
+.logohl {
+    padding-left: 10px;
+}
+
+.bgbox2 {
+    justify-content:flex-end;
+    align-items: center;
+}
+
+button{
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 0px;
+    border-radius: 6px;
+    padding: 1px;
+    font-size: 15px;
+    font-weight: 400;
+    width: 110.375px;
+    height: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.5s, color 0.5s;
+}
+.tf2logo {
+    width: 300px;
+    padding-bottom: 1rem;
+}
+.p2logo {
+    width: 300px;
+    padding-bottom: 1rem; 
+}
+button:hover{
+    color: #000000;
+    background-color: rgb(254, 161, 0);
+}
+.btnVar {
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.tf2 {
+    background-image: url(/project0.1/styles/tf2_bg.jpg);
+    background-size: cover;
+    background-position: -220px;
+}
+.p2 {
+    background-image: url(/project0.1/styles/p2_bg.jpg);
+    background-size: cover;
+}
+
+/* .crshed-effect {
+    position: absolute;
+    width: 450px;
+    top: 505px;
+    margin-left: 60px;
+    size-adjust: inherit;
+} */
