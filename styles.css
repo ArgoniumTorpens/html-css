@@ -67,7 +67,7 @@ nav ul {
     clip-path: polygon(0% 0%, 100% 0%, 90% 30%, 10% 30%);
 }
 .middle {
-    background-image: url(/project0.1/styles/rustpattern2.webp);
+    background-image: url(/styles/rustpattern2.webp);
     border-radius: 3px;
     width: 25vw;
     height: 1vh;
