@@ -10,14 +10,14 @@ body {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    background-image: url(/project0.1/styles/grungy_loop.png); 
+    background-image: url(project0.1/styles/grungy_loop.png); 
 }
 header {
     width: 100vw;
     height: 45vh;
     align-items: center;
     justify-content: center;
-    background-image: url(/project0.1/styles/grungy_color.jpg);
+    background-image: url(project0.1/styles/grungy_color.jpg);
     background-size: cover;
 }
 
