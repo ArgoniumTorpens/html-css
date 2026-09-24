@@ -17,7 +17,7 @@ header {
     height: 45vh;
     align-items: center;
     justify-content: center;
-    background-image: url(./docs/grungy_color.jpg);
+    background-image: url(/grungy_color.jpg);
     background-size: cover;
 }
 
@@ -55,14 +55,14 @@ nav ul {
 .upper{
     width: 24.5vw;
     height:5vh;
-    background-image: url(/project0.1/styles/rustpattern.webp);
+    background-image: url(/rustpattern.webp);
     border: 5px solid #2d1401;
     clip-path: polygon(10% 70%, 90% 70%, 100% 100%, 0% 100%);
 }
 .lower{
     width: 24.5vw;
     height: 5vh;
-    background-image: url(/project0.1/styles/rustpattern.webp);
+    background-image: url(/rustpattern.webp);
     border: 5px solid #4e2301;
     clip-path: polygon(0% 0%, 100% 0%, 90% 30%, 10% 30%);
 }
@@ -73,7 +73,7 @@ nav ul {
     height: 1vh;
 }
 .center {
-    background-image: url(/project0.1/styles/the-image-is-of-a-rusted-metal-surface-with-many-small-holes-free-photo.webp);
+    background-image: url(/the-image-is-of-a-rusted-metal-surface-with-many-small-holes-free-photo.webp);
 }
 .nav-ul li {
     display: flex;
@@ -96,7 +96,7 @@ main {
     justify-content: center;
     flex-direction: column;
     width: 70vw;
-    background-image: url(/project0.1/styles/Background_main.jpg);
+    background-image: url(/Background_main.jpg);
     background-size:auto;
 }
 
@@ -140,15 +140,15 @@ main {
 }
     /*Background resolution: 1920x620*/
 .background_halflife {
-    background-image: url(/project0.1/styles/hl_coverw.jpg);
+    background-image: url(/hl_coverw.jpg);
     background-size: cover;
 }
 .background_opposingforce {
-    background-image: url(/project0.1/styles/hl_of_coverw.png);
+    background-image: url(/docs/hl_of_coverw.png);
     background-size: cover;
 }
 .background_blueshift {
-    background-image: url(/project0.1/styles/hl_bs_coverw.png);
+    background-image: url(/docs/hl_bs_coverw.png);
     background-size: cover;
 }
 .logo {
