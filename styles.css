@@ -10,14 +10,14 @@ body {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    background-image: url(/grungy_loop.png); 
+    background-image: url(https://cdn.fastly.steamstatic.com/half-life.com/images/halflife25/grungy_color.jpg); 
 }
 header {
     width: 100vw;
     height: 45vh;
     align-items: center;
     justify-content: center;
-    background-image: url(/grungy_color.jpg);
+    background-image: url(https://cdn.fastly.steamstatic.com/half-life.com/images/halflife25/grungy_color.jpg);
     background-size: cover;
 }
 
@@ -55,14 +55,14 @@ nav ul {
 .upper{
     width: 24.5vw;
     height:5vh;
-    background-image: url(/rustpattern.webp);
+    background-image: url(https://media.gettyimages.com/id/1747368859/es/foto/texture-of-the-old-rusty-metal-plate.jpg?s=612x612&w=0&k=20&c=rSBFmt4q36nYCFGNjQQHdNJTYm9Tm8o-BwK_hr4nx0k=);
     border: 5px solid #2d1401;
     clip-path: polygon(10% 70%, 90% 70%, 100% 100%, 0% 100%);
 }
 .lower{
     width: 24.5vw;
     height: 5vh;
-    background-image: url(/rustpattern.webp);
+    background-image: url(https://media.gettyimages.com/id/1747368859/es/foto/texture-of-the-old-rusty-metal-plate.jpg?s=612x612&w=0&k=20&c=rSBFmt4q36nYCFGNjQQHdNJTYm9Tm8o-BwK_hr4nx0k=);
     border: 5px solid #4e2301;
     clip-path: polygon(0% 0%, 100% 0%, 90% 30%, 10% 30%);
 }
@@ -96,7 +96,7 @@ main {
     justify-content: center;
     flex-direction: column;
     width: 70vw;
-    background-image: url(/Background_main.jpg);
+    background-image: url(https://web.archive.org/web/20050711083205im_/http://half-life.com/img/Background_main.jpg);
     background-size:auto;
 }
 
@@ -140,15 +140,15 @@ main {
 }
     /*Background resolution: 1920x620*/
 .background_halflife {
-    background-image: url(/hl_coverw.jpg);
+    background-image: url(https://images.launchbox-app.com//a3e72c3d-47b8-488c-a8ba-0074d019e4b8.jpg);
     background-size: cover;
 }
 .background_opposingforce {
-    background-image: url(/docs/hl_of_coverw.png);
+    background-image: url(https://images.launchbox-app.com//ce638ad1-bb71-45a2-aff3-ae65478d418f.png);
     background-size: cover;
 }
 .background_blueshift {
-    background-image: url(/docs/hl_bs_coverw.png);
+    background-image: url(https://images.launchbox-app.com//5d6feafe-dbe1-4909-94f9-84ccd5005933.png);
     background-size: cover;
 }
 .logo {
@@ -200,12 +200,12 @@ button:hover{
     margin-bottom: 20px;
 }
 .tf2 {
-    background-image: url(/project0.1/styles/tf2_bg.jpg);
+    background-image: url(https://images.launchbox-app.com//c209e13a-b9f0-4e24-ba63-a08450f1a580.jpg);
     background-size: cover;
     background-position: -220px;
 }
 .p2 {
-    background-image: url(/project0.1/styles/p2_bg.jpg);
+    background-image: url(https://images.launchbox-app.com//52a46cc0-e332-4cd2-9e79-e7cb8df28597.jpg);
     background-size: cover;
 }
 
