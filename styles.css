@@ -5,6 +5,9 @@
     color: white;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     flex-direction: column;
     align-items: center;
@@ -21,19 +24,21 @@ header {
     background-size: cover;
     /* mask-image: linear-gradient(to Bottom, #f8b100, transparent); */
     mask-image: linear-gradient(to Bottom, #f8b200, #f8b200da, #f8b2009b, transparent);
+    
 }
 .title-vid-intro {
     /*2560×1440*/
     /* margin-top: 10%; */
-    
-    width: 2048px;
-    height: 1224px;
+    width: 100vw;
+    height: 100vh;
 }
 .hero {
+    position: relative;
     width: 100vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .echo{
@@ -54,6 +59,9 @@ nav, nav ul{
     flex-direction: column;
     width: 100rem;
     height: 20rem;
+}
+a {
+    text-decoration: none;
 }
 
 nav ul {
@@ -239,6 +247,33 @@ button:hover{
 .p2 {
     background-image: url(https://images.launchbox-app.com//52a46cc0-e332-4cd2-9e79-e7cb8df28597.jpg);
     background-size: cover;
+}
+.footereffect {
+    background-color: #000000;
+    mask-image: linear-gradient(to Top, #000000, #000000, #000000, #000000,#f8b2009b , transparent);
+}
+footer {
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+    margin-top: 15vh;
+    background-color: #000000;
+}
+
+.footerdiv {
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 30vh;
+}
+.f2{
+    border-left: 3px solid #ffffff;
+    padding-left: 2.5vw;
+}
+.valvelogo {
+    width: 30vw;
+    
 }
 
 /* .crshed-effect {
