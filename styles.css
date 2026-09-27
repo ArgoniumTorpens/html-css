@@ -10,26 +10,41 @@ body {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    background-image: url(https://cdn.fastly.steamstatic.com/half-life.com/images/halflife25/grungy_color.jpg); 
+    background-image: url(https://cdn.fastly.steamstatic.com/half-life.com/images/halflife25/grungy_loop.png); 
 }
 header {
     width: 100vw;
-    height: 45vh;
+    height: 100vh;
     align-items: center;
     justify-content: center;
     background-image: url(https://cdn.fastly.steamstatic.com/half-life.com/images/halflife25/grungy_color.jpg);
     background-size: cover;
+    /* mask-image: linear-gradient(to Bottom, #f8b100, transparent); */
+    mask-image: linear-gradient(to Bottom, #f8b200, #f8b200da, #f8b2009b, transparent);
 }
-
-
- 
-.upper_logo {
+.title-vid-intro {
+    /*2560×1440*/
+    /* margin-top: 10%; */
+    
+    width: 2048px;
+    height: 1224px;
+}
+.hero {
     width: 100vw;
-    height: 1rem;
-    background-color: black;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
-.upper_logo img{
-    margin-left: 0.5vw;
+
+.echo{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 35%;
+    width: 150vw;
+    height: 150vh;
+    opacity: 0.5;
+    filter: blur(15px);
+    
 }
 
 nav, nav ul{
@@ -37,15 +52,16 @@ nav, nav ul{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: -10vh;
     width: 100rem;
     height: 20rem;
 }
 
 nav ul {
-    width: 23vw;
-    height: 5vh;
+    width: 26vw;
+    height: 6vh;
     margin-top: 0rem;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/055/623/567/large_2x/the-image-is-of-a-rusted-metal-surface-with-many-small-holes-free-photo.jpg);
+    background-size: contain;
     flex-direction: row;
 }
 .case {
@@ -53,23 +69,24 @@ nav ul {
     display: flex;
 }
 .upper{
-    width: 24.5vw;
-    height:5vh;
+    width: 28.5vw;
+    height:10vh;
     background-image: url(https://media.gettyimages.com/id/1747368859/es/foto/texture-of-the-old-rusty-metal-plate.jpg?s=612x612&w=0&k=20&c=rSBFmt4q36nYCFGNjQQHdNJTYm9Tm8o-BwK_hr4nx0k=);
-    border: 5px solid #2d1401;
+    border: 7px solid #2d1401;
     clip-path: polygon(10% 70%, 90% 70%, 100% 100%, 0% 100%);
 }
 .lower{
-    width: 24.5vw;
-    height: 5vh;
+    width: 28.5vw;
+    height: 10vh;
     background-image: url(https://media.gettyimages.com/id/1747368859/es/foto/texture-of-the-old-rusty-metal-plate.jpg?s=612x612&w=0&k=20&c=rSBFmt4q36nYCFGNjQQHdNJTYm9Tm8o-BwK_hr4nx0k=);
-    border: 5px solid #4e2301;
+    border: 7px solid #4e2301;
     clip-path: polygon(0% 0%, 100% 0%, 90% 30%, 10% 30%);
 }
 .middle {
-    background-image: url(/styles/rustpattern2.webp);
+    background-image: url(https://static.vecteezy.com/system/resources/previews/055/623/567/large_2x/the-image-is-of-a-rusted-metal-surface-with-many-small-holes-free-photo.jpg
+);
     border-radius: 3px;
-    width: 25vw;
+    width: 29vw;
     height: 1vh;
 }
 .center {
@@ -79,7 +96,7 @@ nav ul {
     display: flex;
     padding-left:20px;
     padding-right:20px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
     border-radius: 3px;
     color:#ffffff;
@@ -89,7 +106,22 @@ nav ul {
      0 -1px black,  /* Top */
      0 1px black;   /* Bottom */
 }
+.crabby {
+    position: absolute;
+    left: 58%;
+    top: 105%;
+    transform: rotate(15deg) scale(1.25);
+    width: 9%;
+    z-index: 2;
+}
+.crabby:active {
 
+    transform: rotate(12deg) scale(1.25);
+}
+.navbtn:active {
+    transform: scale(1.05);
+
+}
 
 main {
     align-self: center;
