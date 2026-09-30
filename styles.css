@@ -264,6 +264,7 @@ footer {
     height: 20vh;
     background-color: #000000;
     padding:10px;
+    padding-bottom: 0px;
 }
 
 .footerdiv {
