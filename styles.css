@@ -4,6 +4,8 @@
     padding:0px;
     color: white;
     box-sizing: border-box;
+    font-family: "Cousine", monospace;
+    /* font-family: url(https://www.half-life.com/public/css/fonts/DINPro-Black.WOFF) format('woff'); */
 }
 html {
     scroll-behavior: smooth;
@@ -248,34 +250,60 @@ button:hover{
     background-image: url(https://images.launchbox-app.com//52a46cc0-e332-4cd2-9e79-e7cb8df28597.jpg);
     background-size: cover;
 }
-.footereffect {
-    background-color: #000000;
-    mask-image: linear-gradient(to Top, #000000, #000000, #000000, #000000,#f8b2009b , transparent);
+.footerfx {
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+    margin-top: 50px;
+    mask-image: linear-gradient(to Top, rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1),rgba(0,0,0,1), rgba(0,0,0,0.5), rgba(0,0,0,0));
 }
 footer {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 40vh;
-    margin-top: 15vh;
+    height: 20vh;
     background-color: #000000;
+    padding:10px;
 }
 
 .footerdiv {
     justify-content: center;
     align-items: center;
     width: 25vw;
-    height: 30vh;
+    margin-bottom: 25px;
+    height: 15vh;
 }
-.f2{
-    border-left: 3px solid #ffffff;
-    padding-left: 2.5vw;
-}
-.valvelogo {
-    width: 30vw;
-    
+.f1 {
+    position: relative;
+    width: 28.5vw;
+    height:250px;
+    width: 250px;
+    background-color: #ffffff;
+    margin-top: 115px;
+    margin-left: 117.5px;
+    clip-path: polygon(12.32% 0%, 12.32% 8.26%, 19.27% 8.26%, 22.02% 15.06%, 0% 51.9%, 11.27% 51.9%, 26.75% 27.79%, 36.83% 54.13%, 53.35% 49.15%, 50.6% 40.63%, 43.01% 43.12%, 26.34% 0%, 12.32% 0%);
 }
 
+.f2, .f3 {    
+    border-left: 3px solid #ffffff;
+    padding-left: 2.5vw;    
+    margin-bottom: 0px;
+    padding-left: 15rem;
+    flex-direction: column;
+    align-items:baseline;
+}
+.f2 {
+    padding-left: 2rem;
+}
+.footerdiv p {
+    height: 50px;
+    width: 200px;
+    justify-self: center;
+    font-weight:600;
+}
+.tab {
+    padding-left: 10px;
+}
 /* .crshed-effect {
     position: absolute;
     width: 450px;
